@@ -1,0 +1,155 @@
+.rightSection {
+    background-color: #fff;
+    height: 100vh;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+
+.chatGptVersion {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    color: #9EABA2;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.chatGptVersion svg {
+    width: 20px;
+    height: 20px;
+}
+
+.noChat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    height: 70%;
+    position: relative;
+}
+.noChat .s1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.noChat .s1 h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #9EABA2;
+}
+.noChat .s2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.noChat .suggestionCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.noChat .suggestionCard h2 {
+    font-size: 20px;
+    font-weight: 310;
+}
+
+.noChat .suggestionCard p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.bottomSection{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottomSection svg{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(128, 128, 128);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.bottomSection svg:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128, 0.6);
+}
+
+.bottomSection .messageBar {
+    border: 1px solid gray;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 30px;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgb(213, 222, 239, 0.2);
+}
+
+.bottomSection .messageBar input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.bottomSection p {
+    color: #9EABA2;
+    font-size: 15px;
+}
+
+.messages {
+    height: 70%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: auto;
+}
+
+.messages .message {
+    display: flex;
+    gap: 10px;
+}
+
+.messages .message img {
+    width: 35px;
+    height: 35px;
+}
+
+.messages .message div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messages .message div h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.messages .message div p{
+    font-size: 15px;
+    max-width: 1000px;
+}
